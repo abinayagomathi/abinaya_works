@@ -1,0 +1,79 @@
+.firstpart{
+	display: block;
+	height:700px;
+	position: relative;
+}
+
+.firstpart h1{
+	font-size:45px;
+	color:#fff;
+	top:50%;
+	position:absolute;
+	left:50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+ 
+.secondpart h2{
+	text-align:center;
+	color: rgba(0,188,212,1);
+	margin: 50px 350px;
+
+}
+.secondpart p{
+	text-align:center;
+	width:50%;
+	margin: 50px 350px;
+	font-size:20px;
+}
+
+.thirdpart{
+	display: block;
+	height: 700px;
+}
+
+.social_contacts{
+	height:200px;
+	font-size:28px;
+	margin: 0px 280px;
+}
+
+.social_contacts li{
+	
+	height: 150px;
+    list-style-type: none;
+    width:150px;
+    float:left;
+    margin:0px 30px;
+}
+
+.social_contacts li:first-child{
+	background-repeat: no-repeat;
+}
+
+.social_contacts li:nth-child(2){
+	background-repeat: no-repeat;
+}
+
+.social_contacts li:nth-child(3){
+	background-repeat: no-repeat;
+}
+
+.social_contacts li:nth-child(4){
+	background-repeat: no-repeat;
+}
+.social_title{
+	text-align: center;
+}
+
+.bg-1, .bg-2, .twitter, .blogger, .fb, 
+.linkedin
+{ display: inline-block; background: url('images/png.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.bg-1 { background-position: -1px -0px; width: 1359px; height: 700px; }
+.bg-2 { background-position: -1px -701px; width: 1359px; height: 700px; }
+.twitter { background-position: -1px -1402px; width: 300px; height: 300px; }
+.blogger { background-position: -302px -1402px; width: 150px; height: 150px; }
+.fb { background-position: -453px -1402px; width: 150px; height: 150px; }
+.linkedin { background-position: -604px -1402px; width: 150px; height: 150px; }
